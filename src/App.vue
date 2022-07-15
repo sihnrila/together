@@ -6,6 +6,7 @@
     </main>
    </div>
 </template>
+
 <script>
 import LoadingScreen from "./components/LoadingScreen";
 
