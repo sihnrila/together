@@ -25,6 +25,8 @@ jobs:
           cache: npm
 
       - name: Install and build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
         run: npm install && npm run build
 
       - name: Deploy to Cloudflare Pages
