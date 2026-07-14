@@ -70,7 +70,7 @@ export default {
       /* global kakao */
       script.onload = () => kakao.maps.load(this.initMap);
       script.src =
-        "http://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=5715011e564f34008898ac0b2c497e94"; // 카카오 지도 API
+        "https://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=5715011e564f34008898ac0b2c497e94"; // 카카오 지도 API
       document.head.appendChild(script);
     }
   },
